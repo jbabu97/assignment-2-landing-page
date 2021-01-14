@@ -14,9 +14,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="container bg-success">
+    <header class="container custom_header">
         <!-- starts navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light custom_nav">
             <div class="container">
                 <!--strats logo -->
               <a class="navbar-brand" href="#">
@@ -30,9 +30,9 @@
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
                   <a class="nav-link mx-2 text-white active" aria-current="page" href="#">Home</a>
-                  <a class="nav-link mx-2 text-white" href="#">Product</a>
-                  <a class="nav-link mx-2 text-white" href="#">About us</a>
-                  <a class="nav-link mx-2 text-white" href="#">Contact us</a>
+                  <a class="nav-link mx-2 text-white" href="#product">Product</a>
+                  <a class="nav-link mx-2 text-white" href="#about">About us</a>
+                  <a class="nav-link mx-2 text-white" href="#sign_up">Sign Up</a>
                 </div>
               </div>
             </div>
@@ -40,14 +40,14 @@
           <!-- ends menu -->
           <!-- ends navbar -->
           <!-- starts top section -->
-          <section class="container py-4">
+          <section class="container py-4 custom_top">
               <div class="row d-flex align-items-center gy-5">
                   <div class="col-md-6">
                       <img class="img-fluid" src="images/top_img.png" alt="">
                   </div>
                   <div class="col-md-5 offset-md-1 ms-3">
                     <h1>ShoeMart</h1>
-                    <h1>Infinity Run 2</h1>
+                    <h2>Infinity Run 2</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius necessitatibus quaerat nemo?</p>
                     <button class="btn btn-lg btn-danger"><i class="fas fa-shopping-cart me-2"></i>Buy Now</button>
                   </div>
@@ -58,17 +58,17 @@
 
           <main>
             <!-- starts casual shoe -->
-            <section class="casual_shoe container mt-5">
+            <section id="product" class="casual_shoe container mt-5 custom_cads">
               <h1>Casual Shoes</h1>
               <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
-                  <div class="card h-100 shadow bg-warning">
+                  <div id="card_1" class="card custom_card casual_card h-100 shadow">
                     <img src="images/cads_1.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Nike Cads</h5>
                       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     </div>
-                    <div class="card-footer">
+                    <div id="footer_1" class="card-footer custom_card_footer">
                       <div class="row">
                         <div class="col">
                           <h2 class="text-white">$ 150</h2>
@@ -81,13 +81,13 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card h-100 shadow bg-primary">
+                  <div id="card_2" class="card casual_card custom_card h-100 shadow">
                     <img src="images/cads_2.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Sneakers Skate Cads</h5>
                       <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                     </div>
-                    <div class="card-footer">
+                    <div id="footer_2" class="card-footer custom_card_footer">
                       <div class="row">
                         <div class="col">
                           <h2 class="text-white">$ 150</h2>
@@ -100,13 +100,13 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card h-100 shadow bg-warning">
+                  <div id="card_3" class="card casual_card custom_card h-100 shadow">
                     <img src="images/cads_3.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h4 class="card-title">Sneakers Basketball Cads</h4>
                       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. </p>
                     </div>
-                    <div class="card-footer">
+                    <div id="footer_3" class="card-footer custom_card_footer">
                       <div class="row">
                         <div class="col">
                           <h2 class="text-white">$ 150</h2>
@@ -123,17 +123,17 @@
             <!-- ends casual shoe -->
             
             <!-- starts formal shoe -->
-            <section class="formal_shoe container mt-5">
+            <section class="formal_shoe container mt-5" custom_formal>
               <h1>Formal Shoes</h1>
               <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
-                  <div class="card h-100 shadow">
+                  <div class="card custom_card h-100 shadow">
                     <img src="images/formal_1.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Slip-On Formal Shoe</h5>
                       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     </div>
-                    <div class="card-footer">
+                    <div class="card-footer bg-white custom_card_footer">
                       <div class="row">
                         <div class="col">
                           <h2 class="text-danger">$ 250</h2>
@@ -146,13 +146,13 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card h-100 shadow">
+                  <div class="card custom_card h-100 shadow">
                     <img src="images/formal_2.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Prestige High-Cut Leather</h5>
                       <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                     </div>
-                    <div class="card-footer">
+                    <div class="card-footer bg-white custom_card_footer">
                       <div class="row">
                         <div class="col">
                           <h2 class="text-danger">$ 300</h2>
@@ -165,13 +165,13 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card h-100 shadow">
+                  <div class="card custom_card h-100 shadow">
                     <img src="images/formal_3.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h4 class="card-title">Slip-On Formal Shoe</h4>
                       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. </p>
                     </div>
-                    <div class="card-footer">
+                    <div class="card-footer bg-white custom_card_footer">
                       <div class="row">
                         <div class="col">
                           <h2 class="text-danger">$ 150</h2>
@@ -188,12 +188,12 @@
             <!-- ends casual shoe -->
 
             <!-- starts about -->
-            <section class="about container mt-5">
+            <section id="about" class="custom_about container mt-5">
               <div class="row d-flex align-items-center gy-5">
                 <div class="col-md-5">
                   <!-- starts perfect_fit -->
                   <div class="perfect_fit">
-                    <div class="card mb-3 shadow" >
+                    <div class="card custom_card mb-3 shadow" >
                       <div class="row g-0 d-flex align-items-center p-2">
                         <div class="col-md-4 d-block mx-auto custom_img">
                           <img class="img-fluid" src="icon/image_1.png" alt="...">
@@ -212,7 +212,7 @@
 
                   <!-- starts exchange -->
                   <div class="exchange">
-                    <div class="card mb-3 shadow" >
+                    <div class="card custom_card mb-3 shadow" >
                       <div class="row g-0 d-flex align-items-center p-2">
                         <div class="col-md-4 d-block mx-auto custom_img">
                           <img class="img-fluid" src="icon/image_2.png" alt="...">
@@ -231,7 +231,7 @@
 
                   <!-- starts seller -->
                   <div class="seller">
-                    <div class="card mb-3 shadow" >
+                    <div class="card custom_card mb-3 shadow" >
                       <div class="row g-0 d-flex align-items-center p-2">
                         <div class="col-md-4 d-block mx-auto custom_img">
                           <img class="img-fluid" src="icon/image_3.png" alt="...">
@@ -254,6 +254,51 @@
               </div>
             </section>
             <!-- ends about -->
+
+            <!-- starts sign_up setion -->
+            <section id="sign_up" class="container sign_up rounded mt-5 p-5">
+              <div class="row gy-5">
+                <div class="col-md-6 px-5">
+                  <div class="text">
+                    <h1>LET'S STAY IN TOUCH</h1>
+                    <h4>Get updates on sales, specials and more</h4>
+                  </div>
+                  <div class="social_icon mt-5 text-center">
+                    <a href="https://www.facebook.com/muhammadabduljabbar.babu" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                    <a mx-3 href="https://www.linkedin.com/in/abdul-jabbar-babu-4a99911b9/" target="_blank"><i class="fab fa-linkedin mx-3"></i></a>
+                    <a mx-3 href="https://www.instagram.com/jbabu1997/" target="_blank"><i class="fab fa-instagram"></i></a>
+                  </div>
+                </div>
+                <!-- starts form -->
+                <div class="col-md-6">
+                  <form class="row g-3">
+                      <div class="col-md-6">
+                        <label for="FName" class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="FName" placeholder="First Name">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="LName" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" id="LName" placeholder="Last Name">
+                      </div>
+                                         
+                      <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="inputPassword4">
+                      </div>
+                      
+                      <div class="col-12">
+                        <button type="submit" class="btn btn-danger">Sign Up</button>
+                      </div>
+                    </form>                  
+                  <!-- ends form -->
+                </div>
+              </div>
+            </section>
+            <!-- ends sign_up setion -->
           </main>
 
           <!-- starts footer -->

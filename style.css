@@ -1,4 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 
+h1{
+    /* color: #b33939; */
+    color: #ff793f;
+}
+
+.btn{
+    background-image: linear-gradient(45deg, #ff793f, #b33939);
+}
+
+/* starts header */
+    .custom_header{
+        background-color: #33d9b2;
+    }
+/* ends header */
 
 /* starts about */
 .custom_img{
@@ -6,3 +24,42 @@
     
 }
 /* ends about */
+
+/* starts casual shoe */
+    #card_1, #footer_1{
+        background-color: #ffb142;
+    }
+    #card_2, #footer_2{
+        background-color: #34ace0;
+    }
+    #card_3, #footer_3{
+        background-color: #ffda79;
+    }
+    .custom_card{
+        border: none;
+                
+    }
+    .casual_card img{
+        transition: .5s;        
+    }
+    .casual_card img:hover{
+        transform: rotate(90deg);
+    }
+    .custom_card_footer{
+        border: none;
+    }
+/* ends casual shoe */
+
+/* starts contact */
+.sign_up{
+    background-color: #f7f1e3;
+}
+.social_icon i{
+    font-size: 2rem;
+    color: #c4bdae;
+    transition: .5s;
+}
+.social_icon i:hover{
+    transform: scale(1.5);
+}
+/* ends contact */
